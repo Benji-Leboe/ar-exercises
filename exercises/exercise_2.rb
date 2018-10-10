@@ -15,8 +15,3 @@ pp @store2
 puts @store1.name
 @store1.save
 
-@store3 = Store.where(id: 3)
-
-Store.destroy(3)
-
-puts Store.count
